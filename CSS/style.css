@@ -1123,7 +1123,7 @@ a:active{
     
     #mid {
         border: 2px solid black;
-        width: 170vw;
+        width: 145vw;
         height: 120vh;
         display: flex;
         flex-direction: column;
