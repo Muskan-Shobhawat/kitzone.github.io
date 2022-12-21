@@ -1240,7 +1240,7 @@ a:active{
     
     .contactcontainer1 {
         border: 2px solid red;
-        width: 70vw;
+        width: 85vw;
         height: 12vh;
         justify-content: space-around;
         display: flex;
@@ -1252,7 +1252,7 @@ a:active{
         display: flex;
         align-items: center;
         justify-content: space-around;
-        width: 35vw;
+        width: 50vw;
         border: 2px solid green;
     }
     
@@ -1271,7 +1271,7 @@ a:active{
         display: flex;
         align-items: center;
         justify-content: space-around;
-        width: 70vw;
+        width: 80vw;
         border: 2px solid green;
     }
     
@@ -1287,10 +1287,10 @@ a:active{
     }
     
     .contactcontainer2 {
-        width: 45vw;
+        width: 60vw;
         border: 2px solid red;
         display: flex;
-        transform: translate(25vw,0vh);
+        transform: translate(18vw,0vh);
         justify-content: space-around;
     }
     
@@ -1303,14 +1303,14 @@ a:active{
         justify-content: center;
         align-items: center;
         width: 30vw;
-        height: 16vh;
+        height: 15vh;
         border: 2px solid red;
         transform: translate(-55vw, -20vh);
     }
     
     #about {
         width: 30vw;
-        height: 16vh;
+        height: 15vh;
         border: none;
         display: flex;
         justify-content: center;
