@@ -1057,7 +1057,7 @@ a:active{
     body {
         margin: 0px;
         padding: 0px;
-        overflow-x: hidden;
+        overflow: hidden;
     }
     
     a{
@@ -1154,7 +1154,7 @@ a:active{
     }
     
     #bbb1 {
-        width: 45vw;
+        width: 50vw;
         height: 60vh;
         border-radius: 15px;
         /* transform: translate(-5vw, -10vh); */
@@ -1164,34 +1164,35 @@ a:active{
         box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
         clip-path: inset(-5px 5px -5px -5px);
         border: none;
-        width: 45vw;
+        width: 50vw;
         height: 50vh;
         border-radius: 15px;
-        transform: rotate(15deg) translate(-6vw, -48vh);
+        transform: rotate(15deg) translate(-2.8vw, -49.2vh);
         z-index: 1;
         transition: 0.2s ease;
     }
     
     #bbb2 {
-        width: 45vw;
+        width: 50vw;
         height: 50vh;
         border-radius: 15px;
         /* transform: translate(-5vw, -10vh); */
     }
     
     #bb3 {
+        /* display: none; */
         box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
         clip-path: inset(-5px 5px -5px -5px);
         border: none;
-        width: 40vw;
+        width: 50vw;
         height: 45vh;
         border-radius: 15px;
-        transform: rotate(25deg) translate(-46vw, -90vh);
+        transform: rotate(25deg) translate(-46.5vw, -91vh);
         transition: 0.2s ease;
     }
     
     #bbb3 {
-        width: 40vw;
+        width: 50vw;
         height: 45vh;
         border-radius: 15px;
         /* transform: translate(-5vw, -10vh); */
