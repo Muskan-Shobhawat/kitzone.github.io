@@ -1227,7 +1227,7 @@ a:active{
     
     #bottom {
         border: 2px solid black;
-        height: 15vh;
+        height: 20vh;
         margin-top: 19vh;
         width: 145vw;
         display: flex;
@@ -1238,7 +1238,7 @@ a:active{
     
     .contactcontainer1 {
         border: 2px solid red;
-        width: 25vw;
+        width: 50vw;
         height: 12vh;
         justify-content: space-around;
         display: flex;
@@ -1249,14 +1249,14 @@ a:active{
         display: flex;
         align-items: center;
         justify-content: space-around;
-        width: 15vw;
+        width: 25vw;
         border: 2px solid green;
     }
     
     #phonenumber {
         font-family: Poly;
         font-weight: Regular;
-        font-size: 16px;
+        font-size: 45px;
         color: rgba(0, 0, 0, 1);
     }
     
@@ -1268,7 +1268,7 @@ a:active{
         display: flex;
         align-items: center;
         justify-content: space-around;
-        width: 18.5vw;
+        width: 32vw;
         border: 2px solid green;
     }
     
@@ -1279,14 +1279,15 @@ a:active{
     #emaildesc {
         font-family: Poly;
         font-weight: Regular;
-        font-size: 16px;
+        font-size: 45px;
         color: rgba(0, 0, 0, 1);
     }
     
     .contactcontainer2 {
-        width: 20vw;
+        width: 45vw;
         border: 2px solid red;
         display: flex;
+        transform: translate(35vw,0vh);
         justify-content: space-around;
     }
     
@@ -1298,15 +1299,15 @@ a:active{
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 18vw;
-        height: 20vh;
+        width: 25vw;
+        height: 16vh;
         border: 2px solid red;
-        transform: translate(0vw, -15vh);
+        transform: translate(-40vw, -15vh);
     }
     
     #about {
-        width: 18vw;
-        height: 12vh;
+        width: 25vw;
+        height: 16vh;
         border: none;
         display: flex;
         justify-content: center;
@@ -1315,7 +1316,7 @@ a:active{
         font-family: Poly;
         font-weight: Regular;
         color: rgba(17, 45, 78, 1);
-        font-size: 22px;
+        font-size: 45px;
         box-shadow: 0px 0px 5px 1.7px rgba(79, 79, 79, 0.25);
     }
     
