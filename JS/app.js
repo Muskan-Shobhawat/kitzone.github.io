@@ -170,7 +170,7 @@ function myfunction(p) {
         let d = 0;
         function fun9() {
             bb2.style = "transform:rotate(0deg) translate(-5vw, -45vh); height:60vh; ";
-            bb1.style = "z-index:1; transform:rotate(-20deg) translate(-30vw, 6vh); height:50vh;  ";
+            bb1.style = "z-index:1; transform:rotate(-20deg) translate(-32vw, 6vh); height:50vh;  ";
             bbb1.style.height = "50vh";
             bbb2.style.height = "60vh";
             c = 1;
