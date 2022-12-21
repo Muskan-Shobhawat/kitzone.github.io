@@ -1089,7 +1089,7 @@ a:active{
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 150vw;
+        width: 148vw;
         height: 8vh;
     }
     
@@ -1101,7 +1101,7 @@ a:active{
     }
     
     #navcontainer {
-        border: 2px solid black;
+        border: 2px solid rgb(0, 255, 251);
         width: 90vw;
         height: 5vh;
         margin-left: 15vw;
