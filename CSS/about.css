@@ -636,7 +636,7 @@ a:active{
         font-family: Poly;
         font-weight: Regular;
         font-size: 55px;
-        width: 58vw;
+        width: 60vw;
         /* margin-left: 1vw; */
         /* border: 2px solid rgb(173, 108, 119); */
         color: rgba(0, 0, 0, 1);
@@ -857,7 +857,7 @@ a:active{
     
     #row2img2{
         /* border: 2px solid pink; */
-        width: 25vw;
+        width: 30vw;
         border-radius: 8%;
         height: 35vh;
         box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.5600000023841858);
@@ -866,14 +866,14 @@ a:active{
     
     #img2{
         border-radius: 8%;
-        width: 25vw;
+        width: 30vw;
         height: 35vh;
     }
     
     #line2{
         background-color: black;
         width: 0.1vw;
-        height: 13vh;
+        height: 11.5vh;
         transform: translate(-1vw,-3vh) rotate(90deg);
     }
     
@@ -908,7 +908,7 @@ a:active{
     
     #row3img3{
         /* border: 2px solid pink; */
-        width: 28vw;
+        width: 30vw;
         border-radius: 8%;
         height: 35vh;
         transform: translate(0vw,-6vh);
@@ -917,7 +917,7 @@ a:active{
     
     #img3{
         border-radius: 8%;
-        width: 28vw;
+        width: 30vw;
         height: 35vh;
     }
     
@@ -957,7 +957,7 @@ a:active{
     
     #row4img4{
         /* border: 2px solid pink; */
-        width: 25vw;
+        width: 30vw;
         border-radius: 8%;
         height: 35vh;
         transform: translate(-1vw,-2vh);
@@ -966,14 +966,14 @@ a:active{
     
     #img4{
         border-radius: 8%;
-        width: 25vw;
+        width: 30vw;
         height: 35vh;
     }
     
     #line4{
         background-color: black;
         width: 0.1vw;
-        height: 13vh;
+        height: 12.5vh;
         transform: translate(0vw,-5vh) rotate(90deg);
     }
     
@@ -1009,7 +1009,7 @@ a:active{
     
     .contactcontainer1 {
         /* border: 2px solid red; */
-        width: 52vw;
+        width: 53vw;
         height: 8vh;
         justify-content: space-around;
         display: flex;
@@ -1040,7 +1040,7 @@ a:active{
         display: flex;
         align-items: center;
         justify-content: space-around;
-        width: 52vw;
+        width: 53vw;
         border: 2px solid green;
     }
     
