@@ -1094,31 +1094,18 @@ a:active{
     }
     
     #boxcontainer {
-        border: 2px solid rgb(94, 255, 0);
-        width: 50vw;
-        height: 40vh;
         display: none;
     }
     
     #navcontainer {
         border: 2px solid rgb(0, 255, 251);
-        width: 90vw;
+        width: 115vw;
         height: 5vh;
         margin-left: 15vw;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
     }
     
     .navitems {
-        font-family: Poly;
-        font-weight: Regular;
-        font-size: 50px;
-        color: rgba(63, 114, 175, 1);
-    }
-    
-    .navitems:hover {
-        color: rgba(17, 45, 78, 1);
+        font-size: 80px;
     }
     
     #mid {
@@ -1137,7 +1124,7 @@ a:active{
         flex-direction: column;
         border: 2px solid rgb(255, 0, 144);
         height: 70vh;
-        width: 125vw;
+        width: 130vw;
         /* justify-content: center; */
         align-items: center;
         align-content: center;
@@ -1187,7 +1174,7 @@ a:active{
         width: 50vw;
         height: 45vh;
         border-radius: 15px;
-        transform: rotate(25deg) translate(-47vw, -91vh);
+        transform: rotate(25deg) translate(-48vw, -91vh);
         transition: 0.2s ease;
     }
     
@@ -1197,34 +1184,16 @@ a:active{
         border-radius: 15px;
         /* transform: translate(-5vw, -10vh); */
     }
-    
-    
-    
+ 
     .name {
         font-family: Poly;
         font-weight: Regular;
         border: 2px solid black;
-        width: 65vw;
+        width: 80vw;
         display: flex;
-        height: 4vh;
-        font-size: 60px;
+        height: 5vh;
+        font-size: 75px;
         color: rgba(17, 45, 78, 1);
-    }
-    
-    #name1 {
-        /* border: 2px solid black; */
-        display: block;
-    }
-    
-    #name2 {
-        /* border: 2px solid black; */
-        padding-left: 1vw;
-        display: block;
-    }
-    
-    #name3 {
-        /* border: 2px solid black; */
-        display: none;
     }
     
     #bottom {
