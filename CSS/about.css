@@ -607,7 +607,7 @@ a:active{
     }
     
     #boxcontainer1 {
-        border: 2px solid red;
+        /* border: 2px solid red; */
         width: 85vw;
         height: 50vh;
         display: flex;
@@ -617,7 +617,7 @@ a:active{
     }
     
     #container1 {
-        border: 2px solid pink;
+        /* border: 2px solid pink; */
         height: 48vh;
         width: 5vw;
         display: flex;
@@ -628,7 +628,7 @@ a:active{
     #container2 {
         width: 75vw;
         height: 48vh ;
-        border: 2px solid rgb(173, 108, 119);
+        /* border: 2px solid rgb(173, 108, 119); */
     }
     
     #head1 {
@@ -1041,7 +1041,7 @@ a:active{
         align-items: center;
         justify-content: space-around;
         width: 53vw;
-        border: 2px solid green;
+        /* border: 2px solid green; */
     }
     
     #imgemail {
