@@ -1174,7 +1174,7 @@ a:active{
         width: 50vw;
         height: 45vh;
         border-radius: 15px;
-        transform: rotate(25deg) translate(-52vw, -91vh);
+        transform: rotate(25deg) translate(-60vw, -91vh);
         transition: 0.2s ease;
     }
     
@@ -1197,7 +1197,7 @@ a:active{
     }
     
     #bottom {
-        border: 2px solid black;
+        /* border: 2px solid black; */
         height: 46vh;
         margin-top: 0vh;
         width: 145vw;
