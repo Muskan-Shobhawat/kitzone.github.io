@@ -1057,7 +1057,7 @@ a:active{
     body {
         margin: 0px;
         padding: 0px;
-        overflow: hidden;
+        /* overflow: hidden; */
     }
     
     a{
@@ -1080,12 +1080,12 @@ a:active{
     
     #container {
         width: 145vw;
-        height: 138vh;
+        height: 145vh;
         background: rgba(215, 229, 255, 1);
     }
     
     #top {
-        border: 2px solid rgb(255, 230, 0);
+        /* border: 2px solid rgb(255, 230, 0); */
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1098,10 +1098,10 @@ a:active{
     }
     
     #navcontainer {
-        border: 2px solid rgb(0, 255, 251);
-        width: 115vw;
+        /* border: 2px solid rgb(0, 255, 251); */
+        width: 125vw;
         height: 5vh;
-        margin-left: 15vw;
+        /* margin-left: 15vw; */
     }
     
     .navitems {
@@ -1109,7 +1109,7 @@ a:active{
     }
     
     #mid {
-        border: 2px solid black;
+        /* border: 2px solid black; */
         width: 145vw;
         height: 90vh;
         display: flex;
@@ -1122,7 +1122,7 @@ a:active{
     #boxcontainer2 {
         display: flex;
         flex-direction: column;
-        border: 2px solid rgb(255, 0, 144);
+        /* border: 2px solid rgb(255, 0, 144); */
         height: 70vh;
         width: 130vw;
         /* justify-content: center; */
@@ -1188,8 +1188,8 @@ a:active{
     .name {
         font-family: Poly;
         font-weight: Regular;
-        border: 2px solid black;
-        width: 80vw;
+        /* border: 2px solid black; */
+        width: 90vw;
         display: flex;
         height: 5vh;
         font-size: 75px;
@@ -1197,32 +1197,33 @@ a:active{
     }
     
     #bottom {
-        border: 2px solid black;
-        height: 20vh;
-        /* margin-top: 19vh; */
+        /* border: 2px solid black; */
+        height: 46vh;
+        margin-top: 0vh;
         width: 145vw;
         display: flex;
+        flex-direction: column;
         justify-content: space-around;
         align-content: center;
         align-items: center;
     }
     
     .contactcontainer1 {
-        border: 2px solid red;
+        /* border: 2px solid red; */
         width: 85vw;
         height: 12vh;
         justify-content: space-around;
         display: flex;
         flex-direction: column;
-        transform: translate(2vw,0vh);
+        transform: translate(0vw,15vh);
     }
     
     .phone {
         display: flex;
         align-items: center;
         justify-content: space-around;
-        width: 50vw;
-        border: 2px solid green;
+        width: 45vw;
+        /* border: 2px solid green; */
     }
     
     #phonenumber {
@@ -1233,7 +1234,7 @@ a:active{
     }
     
     #imgphone {
-        height: 3vh;
+        height: 4vh;
     }
     
     .email {
@@ -1241,11 +1242,11 @@ a:active{
         align-items: center;
         justify-content: space-around;
         width: 80vw;
-        border: 2px solid green;
+        /* border: 2px solid green; */
     }
     
     #imgemail {
-        height: 3vh;
+        height: 4vh;
     }
     
     #emaildesc {
@@ -1256,25 +1257,25 @@ a:active{
     }
     
     .contactcontainer2 {
-        width: 60vw;
-        border: 2px solid red;
+        width: 65vw;
+        /* border: 2px solid red; */
         display: flex;
-        transform: translate(18vw,0vh);
+        transform: translate(0vw,15vh);
         justify-content: space-around;
     }
     
     .links {
-        height: 3vh;
+        height: 4vh;
     }
     
     .contactcontainer3 {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 30vw;
+        width: 45vw;
         height: 15vh;
-        border: 2px solid red;
-        transform: translate(-55vw, -20vh);
+        /* border: 2px solid red; */
+        transform: translate(5vw, -30vh);
     }
     
     #about {
