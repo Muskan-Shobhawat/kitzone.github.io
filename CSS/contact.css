@@ -181,7 +181,7 @@ a:active{
     }
     #content{
         /* border: 2px solid red; */
-        height: 92vh;
+        height: 65vh;
         width: 99.5vw;
         display: flex;
         justify-content: center;
