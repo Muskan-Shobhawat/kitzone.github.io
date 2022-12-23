@@ -1101,7 +1101,7 @@ a:active{
         /* border: 2px solid rgb(0, 255, 251); */
         width: 125vw;
         height: 5vh;
-        /* margin-left: 15vw; */
+        margin-right: 15vw;
     }
     
     .navitems {
