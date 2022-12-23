@@ -1080,7 +1080,7 @@ a:active{
     
     #container {
         width: 145vw;
-        height: 145vh;
+        height: 146vh;
         background: rgba(215, 229, 255, 1);
     }
     
@@ -1197,7 +1197,7 @@ a:active{
     }
     
     #bottom {
-        /* border: 2px solid black; */
+        border: 2px solid black;
         height: 46vh;
         margin-top: 0vh;
         width: 145vw;
