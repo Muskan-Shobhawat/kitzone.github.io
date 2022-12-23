@@ -12,37 +12,78 @@ let str2=swimming.split(regex).length;
 let str3=swimming.split(regex).length+2;
 let str4=swimming.split(regex).length+2;
 console.log(str,str2,str3,str4);
-let num=1;
-while(num<=str){
-    let a=document.createElement('div');
-    a.style="height:0.9vh; width:1.5vw; border-radius:100%; background:rgba(17,45,78,1)";
-    bluecircle1.appendChild(a);
-    num++;
+
+var p = window.matchMedia("(max-width: 1080px)");
+myfunction(p);
+function myfunction(p) {
+    if (p.matches) {
+        let num=1;
+        while(num<=str){
+            let a=document.createElement('div');
+            a.style="height:0.9vh; width:1.5vw; border-radius:100%; background:rgba(17,45,78,1)";
+            bluecircle1.appendChild(a);
+            num++;
+        }
+        
+        let num2=1;
+        while(num2<=str2){
+            let a=document.createElement('div');
+            a.style="height:0.9vh; width:1.5vw; border-radius:100%; background:rgba(17,45,78,1)";
+            bluecircle2.appendChild(a);
+            num2++;
+        }
+        
+        let num3=1;
+        while(num3<=str3){
+            let a=document.createElement('div');
+            a.style="height:0.9vh; width:1.5vw; border-radius:100%; background:rgba(17,45,78,1)";
+            bluecircle3.appendChild(a);
+            num3++;
+        }
+        
+        
+        let num4=1;
+        while(num4<=str4){
+            let a=document.createElement('div');
+            a.style="height:0.9vh; width:1.5vw; border-radius:100%; background:rgba(17,45,78,1)";
+            bluecircle4.appendChild(a);
+            num4++;
+        }
 }
-
-let num2=1;
-while(num2<=str2){
-    let a=document.createElement('div');
-    a.style="height:0.9vh; width:1.5vw; border-radius:100%; background:rgba(17,45,78,1)";
-    bluecircle2.appendChild(a);
-    num2++;
+else{
+    let num=1;
+    while(num<=str){
+        let a=document.createElement('div');
+        a.style="height:0.9vh; width:0.5vw; border-radius:100%; background:rgba(17,45,78,1)";
+        bluecircle1.appendChild(a);
+        num++;
+    }
+    
+    let num2=1;
+    while(num2<=str2){
+        let a=document.createElement('div');
+        a.style="height:0.9vh; width:0.5vw; border-radius:100%; background:rgba(17,45,78,1)";
+        bluecircle2.appendChild(a);
+        num2++;
+    }
+    
+    let num3=1;
+    while(num3<=str3){
+        let a=document.createElement('div');
+        a.style="height:0.9vh; width:0.5vw; border-radius:100%; background:rgba(17,45,78,1)";
+        bluecircle3.appendChild(a);
+        num3++;
+    }
+    
+    
+    let num4=1;
+    while(num4<=str4){
+        let a=document.createElement('div');
+        a.style="height:0.9vh; width:0.5vw; border-radius:100%; background:rgba(17,45,78,1)";
+        bluecircle4.appendChild(a);
+        num4++;
+    }   
 }
-
-let num3=1;
-while(num3<=str3){
-    let a=document.createElement('div');
-    a.style="height:0.9vh; width:1.5vw; border-radius:100%; background:rgba(17,45,78,1)";
-    bluecircle3.appendChild(a);
-    num3++;
-}
-
-
-let num4=1;
-while(num4<=str4){
-    let a=document.createElement('div');
-    a.style="height:0.9vh; width:1.5vw; border-radius:100%; background:rgba(17,45,78,1)";
-    bluecircle4.appendChild(a);
-    num4++;
 }
 
 // let boxcontainer=document.getElementById("boxcontainer2");
