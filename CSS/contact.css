@@ -169,7 +169,7 @@ a:active{
         font-family: Poly;
         font-weight: Regular;
         font-size: 60px;
-        width: 20vw;
+        width: 23vw;
         /* padding: 15vw,0vh; */
         color: rgba(63, 114, 175, 1);
         /* border: 2px solid red; */
@@ -190,7 +190,7 @@ a:active{
     #contentflex{
         /* border: 2px solid red; */
         height: 40vh;
-        width: 50vw;
+        width: 70vw;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -208,7 +208,7 @@ a:active{
     #head2{
         color: rgba(17,45,78,1);
         font-family: Poly;
-        font-size: 22px;
+        font-size: 35px;
         font-weight: Regular;
         display: flex;
         flex-direction: column;
@@ -218,7 +218,7 @@ a:active{
     #head3{
         color: rgba(17,45,78,1);
         font-family: Poly;
-        font-size: 22px;
+        font-size: 35px;
         font-weight: Regular;
         display: flex;
         flex-direction: column;
@@ -228,7 +228,7 @@ a:active{
     #head4{
         color: rgba(17,45,78,1);
         font-family: Poly;
-        font-size: 22px;
+        font-size: 35px;
         height: 10vh;
         /* border: 2px solid blue; */
         font-weight: Regular;
@@ -239,7 +239,7 @@ a:active{
     }
     
     .contactcontainer2 {
-        width: 50vw;
+        width: 70vw;
         /* border: 2px solid red; */
         display: flex;
         justify-content: space-around;
