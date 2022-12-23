@@ -1154,7 +1154,7 @@ a:active{
         width: 55vw;
         height: 50vh;
         border-radius: 15px;
-        transform: rotate(15deg) translate(-8vw, -49vh);
+        transform: rotate(15deg) translate(-10vw, -49vh);
         z-index: 1;
         transition: 0.2s ease;
     }
