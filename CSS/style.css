@@ -1154,7 +1154,7 @@ a:active{
         width: 55vw;
         height: 50vh;
         border-radius: 15px;
-        transform: rotate(15deg) translate(-10vw, -49vh);
+        transform: rotate(15deg) translate(-11vw, -49vh);
         z-index: 1;
         transition: 0.2s ease;
     }
@@ -1174,7 +1174,7 @@ a:active{
         width: 50vw;
         height: 45vh;
         border-radius: 15px;
-        transform: rotate(25deg) translate(-60vw, -90vh);
+        transform: rotate(25deg) translate(-55vw, -90vh);
         transition: 0.2s ease;
     }
     
