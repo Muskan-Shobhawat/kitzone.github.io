@@ -179,7 +179,7 @@ function myfunction(p) {
             if (d == 1) {
                 console.log(c + "its query")
                 bb2.style = "z-index:3; transform:rotate(0deg) translate(-5vw, -45vh); height:60vh; ";
-                bb3.style = "z-index:1; transform:rotate(15deg) translate(-35vw, -90vh); height:45vh; ";
+                bb3.style = "z-index:1; transform:rotate(15deg) translate(-40vw, -90vh); height:45vh; ";
                 // bb1.style = "z-index:1; transform:rotate(-25deg) translate(-9vw,-12vh); height:45vh;  ";
                 bbb2.style.height = "60vh";
                 bbb3.style.height = "45vh";
@@ -201,7 +201,7 @@ function myfunction(p) {
 
         bb1.addEventListener("click", fun11);
         function fun11() {
-            bb3.style = "z-index:1; transform:rotate(25deg) translate(-60vw, -88vh); height:45vh; ";
+            bb3.style = "z-index:1; transform:rotate(25deg) translate(-60vw, -90vh); height:45vh; ";
             bb2.style = "z-index:2; transform:rotate(15deg) translate(-12vw, -48vh); height:50vh;  ";
             bb1.style = "z-index:3; transform:rotate(0deg) translate(0vw, 5vh); height:60vh;  ";
             bbb1.style.height = "60vh";
