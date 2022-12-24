@@ -171,7 +171,7 @@ function myfunction(p) {
         function fun9() {
             bb2.style = "transform:rotate(0deg) translate(-5vw, -45vh); height:60vh; ";
             bb1.style = "z-index:1; transform:rotate(-20deg) translate(-32vw, 6vh); height:50vh;  ";
-            bb3.style = "transform: rotate(25deg) translate(-62vw, -90vh);";
+            bb3.style = "transform: rotate(25deg) translate(-65vw, -90vh);";
             bbb1.style.height = "50vh";
             bbb2.style.height = "60vh";
             c = 1;
@@ -179,7 +179,7 @@ function myfunction(p) {
             if (d == 1) {
                 console.log(c + "its query")
                 bb2.style = "z-index:3; transform:rotate(0deg) translate(-5vw, -45vh); height:60vh; ";
-                bb3.style = "z-index:1; transform:rotate(15deg) translate(-29.8vw, -90vh); height:45vh; ";
+                bb3.style = "z-index:1; transform:rotate(15deg) translate(-35vw, -90vh); height:45vh; ";
                 // bb1.style = "z-index:1; transform:rotate(-25deg) translate(-9vw,-12vh); height:45vh;  ";
                 bbb2.style.height = "60vh";
                 bbb3.style.height = "45vh";
@@ -201,9 +201,9 @@ function myfunction(p) {
 
         bb1.addEventListener("click", fun11);
         function fun11() {
-            bb3.style = "z-index:1; transform:rotate(25deg) translate(-46vw, -87vh); height:45vh; ";
+            bb3.style = "z-index:1; transform:rotate(25deg) translate(-60vw, -87vh); height:45vh; ";
             bb2.style = "z-index:2; transform:rotate(15deg) translate(-12vw, -48vh); height:50vh;  ";
-            bb1.style = "z-index:3; transform:rotate(0deg) translate(-5vw, 5vh); height:60vh;  ";
+            bb1.style = "z-index:3; transform:rotate(0deg) translate(0vw, 5vh); height:60vh;  ";
             bbb1.style.height = "60vh";
             bbb2.style.height = "50vh";
             bbb3.style.height = "45vh";
